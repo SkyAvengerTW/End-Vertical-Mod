@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "end_vertical",
+  "version": "${version}",
+  "name": "End Vertical",
+  "description": "Adds the Void Walker, Darkness Stone, Void Essence, and vertical End formations.",
+  "authors": ["Thomas"],
+  "environment": "*",
+  "entrypoints": { "main": ["com.endvertical.EndVerticalMod"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
